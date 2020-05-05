@@ -1,0 +1,94 @@
+.jumbotron{
+    background-size: cover;
+    background-image: url(../img/Jumbot1.jpg);
+    height: 540px;
+   
+}
+
+.navbar {
+    background-color: white!important;
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=black');
+    }
+
+.navbar-brand{
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.navbar-nav{
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: -4px;
+}
+
+.user{
+    color: black!important;
+    margin-right: 30px;
+}
+
+.shopping{
+    color: black!important;
+    margin-right: 27px;
+}
+
+.tentang p{
+    font-family: 'Titillium Web', sans-serif;       
+}
+
+
+
+.tentang h1{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 32px;
+}
+ 
+.kategori h1{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 21px;
+    margin-top: 14px;
+}
+
+@media (min-width: 992px){
+    .nav-link:hover::after{
+		content: "";
+		display: block;
+		border-bottom:3px solid rgb(119, 58, 8);
+		width: 80%;
+		margin:auto;
+		padding-bottom:5px;
+		margin-bottom: -8px;
+}
+
+    .navbar-brand{
+        font-family: 'Carter One', cursive;
+        font-size: 24px;
+        margin-left: 58px;
+    }
+
+    .navbar-nav{
+       font-family: 'Ramabhadra', sans-serif;
+       justify-content: center;
+       margin-left: 39px;
+        
+    }
+
+    .nav-link{
+        font-family: 'Ramabhadra', sans-serif;
+        margin-left: 10px;
+    }
+
+    .user{
+        color: black!important;
+        margin-right:40px;
+    }
+    
+    .shopping{
+        color: black!important;
+        margin-right: 100px;
+    }
+  
+
+}
