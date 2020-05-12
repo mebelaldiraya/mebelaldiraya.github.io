@@ -1,7 +1,7 @@
 .jumbotron{
     background-size: cover;
     background-image: url(../img/Jumbot.jpg);
-    height: 480px;
+    height: 427px;
   
 }
 
@@ -21,6 +21,9 @@
     margin-top: 28px;
     text-shadow: 5px 3px 5px rgba(0,0,0,0.8);
 }
+
+
+
 
 .navbar {
     background-color: white!important;
@@ -53,14 +56,14 @@
 
 .tentang{
     margin-top: 52px;
+    
 }
 
 
 .tentang p{
-    font-family: 'Titillium Web', sans-serif;       
+    font-family: 'Titillium Web', sans-serif;    
+      
 }
-
-
 
 .tentang h1{
     font-family: 'Ramabhadra', sans-serif;
@@ -75,13 +78,73 @@
     margin-top: 14px;
 }
 
+.btt{
+    position: fixed;
+    width: 40px;
+    background:rgb(22, 21, 21);
+    bottom:27px;
+    z-index: 9998;
+    right:19px;
+    box-shadow: 0px 3px 3px#575757;    
+    border-radius: 12px;
+}
 
+.btt i{
+    color:white;
+    font-size:42px;
+    padding:6px;
+}
+
+
+
+
+
+
+.contact{
+    position: fixed;
+    width: 43px;
+    background: rgb(4, 211, 39);
+    bottom:27px;
+    z-index:9998;
+    box-shadow: 0px 0px 0px#575757;    
+}
+
+.contact i{
+    color:white;
+    font-size:34px;
+    padding:6px;
+}
+
+.produk{
+    min-height: 1900px;
+}
 
 @media (min-width: 992px){
     .jumbotron{
         margin-top: 15px;
         height: 410px;
        
+    }
+
+    .jumbotron .display-4{
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 92px;
+        color: black;
+        text-shadow: 0px 5px 0px rgba(0,0,0,0.8);
+    }
+
+    .jumbotron .lead{
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 27px;
+        color: white;
+        margin-top: 28px;
+    }
+
+    
+    .user{
+        color: black!important;
+        margin-right:40px;
     }
 
     .nav-link:hover::after{
@@ -112,10 +175,6 @@
         margin-left: 10px;
     }
 
-    .user{
-        color: black!important;
-        margin-right:40px;
-    }
     
     .shopping{
         color: black!important;
@@ -126,22 +185,13 @@
         margin-top: 84px;
     }
 
-    .jumbotron .display-4{
-        font-family: 'Oswald', sans-serif;
-        text-transform: uppercase;
-        font-size: 92px;
-        color: black;
-        text-shadow: 0px 5px 0px rgba(0,0,0,0.8);
-    }
-
-    .jumbotron .lead{
+    .produk h1{
         font-family: 'Ramabhadra', sans-serif;
-        font-size: 27px;
-        color: white;
-        margin-top: 28px;
+        margin-top: 84px;
+        font-size: 32px;
     }
-    
 
+  
 
 
 }
