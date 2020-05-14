@@ -14,27 +14,37 @@
     <div id="login">
        
         <div class="container">
-            <div id="login-row" class="row justify-content-center align-items-center">
-                <div id="login-column" class="col-md-6">
-                    <div id="login-box" class="col-md-12">
-                        <form id="login-form" class="form" action="" method="post">
-                            <h3 align ="center">Login</h3>
+            <div class="row justify-content-center" >
+                <div class="col-10">
+                    <div class="dalem row">
+                    <div class="col-lg">
+                        <h1 align="center">Login</h1>
+                       
+                        <form  action="" method="post">
+                            
                             <div class="form-group">
-                                <label for="username" class="text-info">Nama</label><br>
-                                <input type="text" name="username" id="username" class="form-control">
+                               <label for="nama"></label>
+                               <input type="text" class="form-control" placeholder="E-mail/ Nomor Handphone" id="nama" required> 
                             </div>
+                            
                             <div class="form-group">
-                                <label for="password" class="text-info">Password:</label><br>
-                                <input type="text" name="password" id="password" class="form-control">
+                                <label for="password"></label>
+                                <input type="password" class="form-control" placeholder="Password" id="password" required> 
                             </div>
-                            <div class="form-group">
-                               <br>
-                              <a href="index.html"><div class="btn btn-info">Masuk</div></a>
+                            
+                            <div class="form-check">
+                                <input type="checkbox" class="form-check-input">Ingat saya 
                             </div>
-                            <div id="register-link" class="text-right">
-                                <a href="https://mebelaldiraya.github.io/register.html" class="text-info">Register</a>
+                               
+                            <div class="text-right" id="daftar">
+                                <a href="https://mebelaldiraya.github.io/register.html">Daftar</a>
                             </div>
-                        </form>
+                            
+                            <br>
+                            <a href="https://mebelaldiraya.github.io/index.html" class="btn btn-success btn-block">Login</a>
+                         
+                       </form>
+                        
                     </div>
                 </div>
             </div>
