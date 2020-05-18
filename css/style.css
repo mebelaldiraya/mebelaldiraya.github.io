@@ -71,6 +71,8 @@
     margin-bottom: -1px;
     
 }
+
+
  
 .kategori h1{
     font-family: 'Ramabhadra', sans-serif;
@@ -104,7 +106,7 @@
     position: fixed;
     width: 39px;
     background: rgb(4, 211, 39);
-    bottom:257px;
+    bottom:157px;
     z-index:9998;
     box-shadow: 0px 0px 0px#575757;    
 }
@@ -116,8 +118,45 @@
 }
 
 .produk{
-    min-height: 1900px;
+    min-height: 2190px;
 }
+
+.produk h1{
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 84px;
+    margin-bottom: 32px;
+    font-size: 32px;
+}
+
+.card .card-img-top{
+    height: 350px;
+}
+
+.footer{
+    background-color: black;
+    min-height: 43px;
+}
+
+.footer p{
+    color:white;
+    margin-top: 11px;
+}
+
+.lokasi h1{
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: -119px;
+    font-size: 32px;
+}
+
+.lokasi .embed-responsive{
+    margin-top: -49px;
+}
+
+.lokasi{
+    min-height: 170px;
+}
+
+
 
 @media (min-width: 992px){
     .jumbotron{
@@ -188,10 +227,32 @@
     .produk h1{
         font-family: 'Ramabhadra', sans-serif;
         margin-top: 84px;
+        margin-bottom: 50px;
         font-size: 32px;
     }
 
-  
+    .card .card-img-top{
+        height: 520px;
+        
+    }
+
+    .produk{
+        min-height: 1790px;
+    }
+
+    .lokasi h1{
+        font-family: 'Ramabhadra', sans-serif;
+        margin-top: -254px;
+        font-size: 32px;
+    }
+
+    .lokasi .embed-responsive{
+        margin-top: -150px;
+    }
+
+    .lokasi{
+        min-height: 618px;
+    }
 
 
 }
