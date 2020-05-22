@@ -1,0 +1,177 @@
+.jumbotron{
+    background-size: cover;
+    background-image: url(../img/Jumbot.jpg);
+    height: 427px;
+  
+}
+
+.jumbotron .display-4{
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    font-size: 61px;
+    margin-top: 10px;
+    color: white;
+    text-shadow: 5px 3px 5px rgba(0,0,0,0.8);
+}
+
+.jumbotron .lead{
+    font-family: 'Ramabhadra', sans-serif;
+    font-size: 28px;
+    color: white;
+    margin-top: 28px;
+    text-shadow: 5px 3px 5px rgba(0,0,0,0.8);
+}
+
+
+
+
+.navbar {
+    background-color: white!important;
+}
+
+.navbar.navbar-6 .navbar-toggler-icon {
+    background-image: url('https://mdbootstrap.com/img/svg/hamburger8.svg?color=black');
+    }
+
+.navbar-brand{
+    font-family: 'Carter One', cursive;
+    font-size: 20px;
+    margin-left: 12px;
+}
+
+.navbar-nav{
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: -4px;
+}
+
+.user{
+    color: black!important;
+    margin-right: 30px;
+}
+
+.shopping{
+    color: black!important;
+    margin-right: 27px;
+}
+
+.sell h1{
+    font-family: 'Ramabhadra', sans-serif;
+    margin-top: 37px;
+    font-size: 32px;
+    margin-bottom: 40px;
+}
+
+.card .card-img-top{
+    height: 350px;
+}
+
+.footer{
+    background-color: black;
+    min-height: 43px;
+    margin-top: 100px;
+    
+}
+
+.footer p{
+    color:white;
+    margin-top: 11px;
+}
+
+
+hr{
+	width:149px;
+    border:2px solid rgb(0, 0, 0);
+
+}
+
+
+
+
+@media (min-width: 992px){
+    .jumbotron{
+        margin-top: 15px;
+        height: 410px;
+       
+    }
+
+    .jumbotron .display-4{
+        font-family: 'Oswald', sans-serif;
+        text-transform: uppercase;
+        font-size: 87px;
+        color: white;
+        
+    }
+
+    .jumbotron .lead{
+        font-family: 'Ramabhadra', sans-serif;
+        font-size: 37px;
+        color: white;
+        margin-top: 28px;
+    }
+
+    
+    .user{
+        color: black!important;
+        margin-right:40px;
+    }
+
+    .nav-link:hover::after{
+		content: "";
+		display: block;
+		border-bottom:3px solid rgb(119, 58, 8);
+		width: 80%;
+		margin:auto;
+		padding-bottom:5px;
+		margin-bottom: -8px;
+}
+
+    .navbar-brand{
+        font-family: 'Carter One', cursive;
+        font-size: 24px;
+        margin-left: 58px;
+    }
+
+    .navbar-nav{
+       font-family: 'Ramabhadra', sans-serif;
+       justify-content: center;
+       margin-left: 39px;
+        
+    }
+
+    .nav-link{
+        font-family: 'Ramabhadra', sans-serif;
+        margin-left: 10px;
+    }
+
+    
+    .shopping{
+        color: black!important;
+        margin-right: 100px;
+    }
+
+    .card .card-img-top{
+        height: 520px;
+        
+    }
+
+
+    .sell h1{
+        font-family: 'Ramabhadra', sans-serif;
+        margin-top: 55px;
+        font-size: 32px;
+        margin-bottom: 60px;
+    }
+
+
+  
+.footer{
+    background-color: black;
+    min-height: 40px;
+    margin-top: 70px;
+    
+}
+   
+
+
+
+}
