@@ -8,15 +8,15 @@
 .jumbotron .display-4{
     font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
-    font-size: 51px;
-    margin-top: 7px;
+    font-size: 61px;
+    margin-top: 10px;
     color: white;
     text-shadow: 5px 3px 5px rgba(0,0,0,0.8);
 }
 
 .jumbotron .lead{
     font-family: 'Ramabhadra', sans-serif;
-    font-size: 25px;
+    font-size: 28px;
     color: white;
     margin-top: 28px;
     text-shadow: 5px 3px 5px rgba(0,0,0,0.8);
@@ -118,7 +118,7 @@
 }
 
 .produk{
-    min-height: 2190px;
+    min-height: 2170px;
 }
 
 .produk h1{
@@ -153,9 +153,14 @@
 }
 
 .lokasi{
-    min-height: 170px;
+    min-height: 470px;
 }
 
+hr{
+	width:10%;
+    border:2px solid rgb(0, 0, 0);
+
+}
 
 
 @media (min-width: 992px){
@@ -168,14 +173,14 @@
     .jumbotron .display-4{
         font-family: 'Oswald', sans-serif;
         text-transform: uppercase;
-        font-size: 92px;
-        color: black;
-        text-shadow: 0px 5px 0px rgba(0,0,0,0.8);
+        font-size: 87px;
+        color: white;
+        
     }
 
     .jumbotron .lead{
         font-family: 'Ramabhadra', sans-serif;
-        font-size: 27px;
+        font-size: 37px;
         color: white;
         margin-top: 28px;
     }
@@ -247,11 +252,11 @@
     }
 
     .lokasi .embed-responsive{
-        margin-top: -150px;
+        margin-top: -170px;
     }
 
     .lokasi{
-        min-height: 618px;
+        min-height: 818px;
     }
 
 
